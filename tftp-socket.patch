@@ -1,0 +1,5 @@
+--- lib/common/functions.sh
++++ lib/common/functions.sh
+@@ -1 +1 @@
+-                cp -v /usr/lib/systemd/system/tftp.socket /etc/systemd/system/fog-tftp.socket >>$error_log 2>&1
++                cp -v /usr/lib/systemd/system/tftpd.socket /etc/systemd/system/fog-tftp.socket >>$error_log 2>&1
